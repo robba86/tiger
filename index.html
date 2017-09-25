@@ -7,14 +7,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaQ.css">
 
     <script>
-        window.onerror = function () {
-            var message = /* get error messages and put them here */ ;
-            alert(message);
-            return true;
-        };
+        // window.onerror = function () {
+        //     var message = /* get error messages and put them here */ ;
+        //     alert(message);
+        //     return true;
+        // };
     </script>
 
 </head>
@@ -22,14 +25,15 @@
 <body
 
     <nav id="nav">
-        <ul>
-            <li>Start</l
-            <li>Emile</li>
-            <li>Robbin</li>
-            <li>Kanya</li>
-            <li>Calle</li>
-            <li>Tim A</li>
-            <li>Tim L</li>
+        <div id="nav-button-max-500">MENU</div>
+        <ul class="hidden-max-500">
+            <li><a href="#">Start</a></li>
+            <li><a href="#">Emile</a></li>
+            <li><a href="#">Robbin</a></li>
+            <li><a href="#">Kanya</a></li>
+            <li><a href="#">Calle</a></li>
+            <li><a href="#">Tim A</a></li>
+            <li><a href="#">Tim L</a></li>
         </ul>
     </nav>
 
@@ -37,7 +41,7 @@
 
     <p>Detta är startsidan. Denna sida kommer innehålla information om vilka vi är i Team Tiger.</p>
 
-
+    <script src="js/drop.js"></script>
 
 </body>
 

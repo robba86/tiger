@@ -1,0 +1,18 @@
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+}
+
+#nav ul li {
+    height: 2em;
+    line-height: 2em;
+    width: 14.2857%;
+    background-color: red;
+    text-align: center;
+}
+
+#nav-button-max-500 {
+    display: none;
+}

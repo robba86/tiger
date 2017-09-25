@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+@media (max-width: 500px){ /* Denna kod triggas om skärmen har max 500px */
+    
+    #nav ul.hidden-max-500 {
+        display: none;
+    }
+    #nav ul {
+        flex-direction: column;
+        background-color: black;
+    }
+    #nav ul li {
+        width: 100%;
+        text-align: left
+    }
+
+    #nav-button-max-500 {
+        display: block;
+    }
+}

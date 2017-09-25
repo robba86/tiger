@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* mediaq styling */
+
+@@media (max-width: 500px;) {
+
+}
+
+.wrap{
+  flex-direction: column;
+}
+
+.content{
+  width: 100;
+}

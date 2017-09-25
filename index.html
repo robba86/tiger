@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +12,6 @@
         <link rel="stylesheet" href="css/main.css"><!--main styling and funkutionalety-->
         <link rel="stylesheet" href="css/mediaq.css"><!--main styling and funkutionalety-->
         
-      
         <script>
         window.onerror = function () {
             var message = /* get error messages and put them here */ ;
@@ -31,18 +25,20 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <nav id="nav">
-            <ul>
-                <li><a href=".html">Start</a></li>
-                <li>Emile</li>
-                <li>Robbin</li>
-                <li>Kanya</li>
-                <li>Calle</li>
-                <li>Tim A</li>
-                <li>Tim L</li>
-            </ul>
-        </nav>
+      <nav id="nav">
+          <div id="nav-button-max-500">MENU</div>
+          <ul class="hidden-max-500">
+              <li><a href="#">Start</a></li>
+              <li><a href="#">Emile</a></li>
+              <li><a href="#">Robbin</a></li>
+              <li><a href="#">Kanya</a></li>
+              <li><a href="#">Calle</a></li>
+              <li><a href="#">Tim A</a></li>
+              <li><a href="#">Tim L</a></li>
+          </ul>
+      </nav>
 
+     
         <div class="wrap">
           <div class="content"><!--content1 image-->
 
@@ -52,6 +48,6 @@
           </div><!--content2-->
 
         </div><!--wrap-->
-
+      <script src="js/drop.js"></script>
     </body>
 </html>

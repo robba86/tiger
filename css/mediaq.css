@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* mediaq styling */
+
+@media (max-width: 500px;) {
+#nav ul.hidden-max-500 {
+        display: none;
+    }
+    #nav ul {
+        flex-direction: column;
+        background-color: black;
+    }
+    #nav ul li {
+        width: 100%;
+        text-align: left
+    }
+
+    #nav-button-max-500 {
+        display: block;
+    }
+}
+
+.wrap{
+  flex-direction: column;
+}
+
+.content{
+  width: 100;
+}

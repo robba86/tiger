@@ -1,14 +1,12 @@
 /*
-    när man klickar på menyknappen
-    så ska "hiddenMax500" ändras till display: block
+    When clicking on the nav-button-max-500
+    then the hidden-max-500 changes to display: flex
 */
 
-let hiddenNavButton = document.querySelector("#nav-button-max-500");
+let hiddenNavButton = document.querySelector("#nav-button-max-500");    // Gets the nav-button-max-500 element
+let hiddenNavWarp = document.querySelector(".hidden-max-500");          // Gets the hidden-max-500 element
 
-// Change .hidden-max-500 to flex
-let hiddenNavWarp = document.querySelector(".hidden-max-500");
-
-function showHideNav() {
+function navShowHide() { // Change .hidden-max-500 element to display: flex
     if (hiddenNavWarp.style.display == "flex") {
         hiddenNavWarp.style.display = "none";     
     } else {
@@ -16,7 +14,11 @@ function showHideNav() {
     }
 }
 
-function windowResize() {
+/*
+    When resizing the window and the menu is toggled and hidden
+    Reset the state so it aper on the desktop view again 
+*/
+function resizeWindow() {
     if (window.innerWidth < 500) {
         hiddenNavWarp.style.display = "none";     
     } else {
@@ -25,6 +27,6 @@ function windowResize() {
 }
 
 
-// Call function with event listener 
-window.addEventListener("resize", windowResize);
-hiddenNavButton.addEventListener("click", showHideNav);
+// Call functions with event listener 
+window.addEventListener("resize", resizeWindow);
+hiddenNavButton.addEventListener("click", navShowHide);

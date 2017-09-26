@@ -63,6 +63,17 @@ img{
     overflow: hidden;
   }
 
+  .content img {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    width: 400px;
+    /*height: 400px;*/
+    border-radius: 2%;
+    /*margin-top: 10px;*/
+    opacity: 0.7;
+  }
+
 #nav ul {
     display: flex;
     flex-direction: row;
@@ -87,6 +98,7 @@ img{
 #nav-button-max-500 {
     display: none;
 }
+<<<<<<< HEAD
 
 #nav ul li a {
   text-decoration: none;
@@ -102,3 +114,5 @@ img{
   color: #000;
   transition-duration: 1s;
 } 
+=======
+>>>>>>> 8d52f6f2637c66d2b1595a94d9ae459d4eb074c9

@@ -77,16 +77,40 @@ img{
     flex-direction: row;
     /* This aligns items to the end line on main-axis */
     justify-content: flex-end;
+    background-color: #222222;
+
 }
 
 #nav ul li {
-    height: 2em;
+    height: 5em;
     line-height: 2em;
     width: 14.2857%;
-    background-color: red;
     text-align: center;
+    padding-top: 1.3em;
+    padding-bottom: 3em;
+}
+#nav ul li:hover {
+    background-color: lightblue;
 }
 
 #nav-button-max-500 {
     display: none;
 }
+<<<<<<< HEAD
+
+#nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#nav ul li a:hover {
+  color: #000;
+  transition-duration: 1s;
+} 
+=======
+>>>>>>> 8d52f6f2637c66d2b1595a94d9ae459d4eb074c9
